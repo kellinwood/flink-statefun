@@ -23,7 +23,7 @@ under the License.
     <parent>
         <groupId>org.apache.flink</groupId>
         <artifactId>statefun-flink</artifactId>
-        <version>3.3-SNAPSHOT</version>
+        <version>3.3-1.18</version>
         <relativePath>..</relativePath>
     </parent>
 
@@ -78,6 +78,12 @@ under the License.
             <artifactId>flink-test-utils-junit</artifactId>
             <version>${flink.version}</version>
             <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.apache.commons</groupId>
+                    <artifactId>commons-compress</artifactId>
+                </exclusion>
+           </exclusions>
         </dependency>
         <dependency>
             <groupId>com.google.jimfs</groupId>
