@@ -86,7 +86,7 @@ under the License.
         <scala.version>2.12.7</scala.version>
         <lz4-java.version>1.8.0</lz4-java.version>
         <flink-shaded-jackson.version>2.14.2-17.0</flink-shaded-jackson.version>
-        <slf4j-log4j12.version>1.7.32</slf4j-log4j12.version>
+        <slf4j-log4j12.version>1.7.36</slf4j-log4j12.version>
         <test.unit.pattern>**/*Test.*</test.unit.pattern>
     </properties>
 
