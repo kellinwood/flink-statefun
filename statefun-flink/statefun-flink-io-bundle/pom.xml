@@ -23,7 +23,7 @@ under the License.
     <parent>
         <groupId>org.apache.flink</groupId>
         <artifactId>statefun-flink</artifactId>
-        <version>3.3-SNAPSHOT</version>
+        <version>3.3-1.18</version>
         <relativePath>..</relativePath>
     </parent>
 
@@ -83,14 +83,14 @@ under the License.
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-connector-kafka</artifactId>
-            <version>${flink.version}</version>
+            <version>${flink.connector.kafka.version}</version>
         </dependency>
 
         <!-- flink kinesis connector -->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-connector-kinesis</artifactId>
-            <version>${flink.version}</version>
+            <version>${flink.connector.kinesis.version}</version>
         </dependency>
 
         <!-- 3rd party -->
